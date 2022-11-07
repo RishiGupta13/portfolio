@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100;300&display=swap');
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  padding-left:1rem;
+  padding-right: 1rem;
+
+}
+
+.container-center{
+  max-width: 600px;
+  margin:auto;
+}
+
+.primary-link{
+  background-color:var(--primary-color);
+  border-radius:2rem;
+  color: white;
+  margin-left: 3rem;
+}
+
+
+:root{
+   --primary-color:#27285C;
+   --dark-gray:#6b7280;
+   --off-white:#f3f4f6;
+}
+
+.link{
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: white;
+}
+
+.secondary-link
+{
+  color:var(--primary-color);
+  border-radius:0.5rem;
+  margin-left: 1rem;
+  border-color: var(--primary-color);
+  border: solid 1px;
+  border-radius:2rem;
+  margin-left: 13rem;
+  
+
+}
+
+hr{
+  margin:2rem 0rem;
+}
+
+.list-non-bullet{
+  list-style: none;
+}
+
+.list-item-inline{
+  display: inline;
+  padding: 0rem 0.5;
+}
+
+.navigation .link{
+  color:white;
+  
+}
+
+.navigation{
+  background-color:var(--primary-color);
+  padding: 1rem;
+  border-bottom-left-radius:1em; 
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.navigation .nav-pills{
+  text-align:right;
+}
+
+.navigation .nav-brand{
+  font-weight:bold;
+  color: white;
+}
+
+.navigation .link-active{
+  font-weight:bold;
+}
+
+.hero{
+  padding: 2rem;
+}
+
+.hero .hero-img{
+  max-width: 350px;
+  display: block;
+  margin: auto;
+
+}
+
+.hero .hero-heading{
+  padding-top: 1rem;
+  color:var(--dark-gray);
+  text-align: center;
+}
+
+.heading-inverted{
+  color:var(--primary-color);
+}
+
+.section h1{
+  text-align: center;
+  padding:2rem;
+
+}
+
+.ow{
+  background-color:rgb(199, 199, 199);
+  padding:1rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+}
+
+footer{
+  background-color:var(--primary-color);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
+  margin:auto;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 2rem;
+}
+
+.footer ul{
+  padding-inline-start: 0px;
+}
